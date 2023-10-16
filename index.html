@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px 0px;
+
+        }
+
+        .bg {
+          
+            height: 100vh;
+            width: 100vw;
+            position: absolute;
+            z-index: -1;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            filter: blur(1px);
+        }
+
+        .navbar {
+            background-color: rgb(255, 255, 255);
+            border-radius: 20px;
+            color: rgb(0, 0, 0);
+            padding: 10px 10px;
+            float: right;
+
+        }
+
+        .navbar ul {
+            display: flex;
+        }
+        .navbar ul li{
+            padding:10px 30px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .navbar ul li:hover{
+            background-color: white;
+            color: black;
+            transition: 0.6s ease;
+        }
+
+        .list {
+            list-style-type: none;
+            margin: 10px 10px;
+            padding: 10px 10px;
+        }
+     input[type=text] {
+
+     }
+     
+
+        
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="bg"></div>
+        <nav class="navbar">
+            <ul>
+                <li class="list">Home</li>
+                <li class="list">About</li>
+                <li class="list">Blogs</li>
+               
+                <input type="text" class="search" placeholder="Search">
+            </ul>
+        </nav>
+    </header>
+
+    </div>
+
+
+</body>
+
+</html>
